@@ -13,6 +13,7 @@ import { ListadoComponent } from './pages/listado/listado.component';
 import { HeroesRoutingModule } from './heroes-routing.module';
 import { HeroeTarjetaComponent } from './components/heroe-tarjeta/heroe-tarjeta.component';
 import { ImagePipe } from './pipes/image.pipe';
+import { ConfirmarComponent } from './components/confirmar/confirmar.component';
 
 
 
@@ -20,12 +21,14 @@ import { ImagePipe } from './pipes/image.pipe';
 @NgModule({
   declarations: [
     AgregarComponent,
+    ConfirmarComponent,
     SearchComponent,
     HeroeComponent,
     HomeComponent,
     ListadoComponent,
     HeroeTarjetaComponent,
-    ImagePipe
+    ImagePipe,
+    ConfirmarComponent
   ],
   imports: [
     CommonModule,
